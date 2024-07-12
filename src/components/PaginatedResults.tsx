@@ -9,8 +9,6 @@ type PaginatedResultsProps = {
 };
 
 const PaginatedResults = ({ pokemon, loading }: PaginatedResultsProps) => {
-  console.log(loading, pokemon);
-
   return (
     <div>
       <h1 className="text-2xl font-semibold my-6">Pokemon</h1>
