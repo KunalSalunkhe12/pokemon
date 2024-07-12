@@ -2,6 +2,8 @@
 
 ## Description
 
+Live : https://pokemon-list-12.netlify.app/
+
 The application have the following features:
 
 - Display a list of Pokemon
