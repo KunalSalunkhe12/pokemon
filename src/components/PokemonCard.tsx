@@ -1,6 +1,6 @@
 import { PokemonData } from "@/types";
 
-const NewsCard = ({ pokemon }: { pokemon: PokemonData }) => {
+const PokemonCard = ({ pokemon }: { pokemon: PokemonData }) => {
   return (
     <div className="cursor-pointer shadow-2xl rounded-lg flex flex-col bg-primary">
       <img
@@ -24,4 +24,4 @@ const NewsCard = ({ pokemon }: { pokemon: PokemonData }) => {
   );
 };
 
-export default NewsCard;
+export default PokemonCard;
