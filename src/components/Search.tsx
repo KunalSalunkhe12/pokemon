@@ -13,7 +13,7 @@ const Search = () => {
       if (searchQuery) {
         setSearchParams((searchParams) => {
           searchParams.delete("page");
-          searchParams.set("search", searchQuery);
+          searchParams.set("search", searchQuery.toLowerCase());
           return searchParams;
         });
       } else {
